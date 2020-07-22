@@ -19,7 +19,7 @@ CREATE TABLE FACTURE
     PRENOM_PERSONNE VARCHAR2(40)  NULL,
 	CONSTRAINT PK_FACTURE PRIMARY KEY (NUMERO_FACTURE)  USING INDEX TABLESPACE BD50_IND 
    ) TABLESPACE BD50_DATA ;
--- -----------------------------------------------------------------------------
+-- --------------------------- --------------------------------------------------
 --       TABLE : FORFAIT
 -- -----------------------------------------------------------------------------
 
